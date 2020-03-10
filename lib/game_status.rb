@@ -38,4 +38,7 @@ WIN_COMBINATIONS.each do |array|
   puts ">>>>>>>>>>>>>>>>>"
   p array
   puts ">>>>>>>>>>>>>>>>>"
+  array.each do |element|
+    puts element.class
+  end
 end
