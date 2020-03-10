@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 def won?(array)
   final_array = []
   WIN_COMBINATIONS.each do |row_win|
-    puts row_win
+    puts row_win.class
   end
 
 end
