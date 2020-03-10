@@ -37,4 +37,3 @@ WIN_COMBINATIONS.each do |array|
   array.class
 
 end
-end
