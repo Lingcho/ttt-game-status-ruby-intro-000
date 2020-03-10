@@ -18,6 +18,7 @@ WIN_COMBINATIONS = [
 
 def won?(array)
   final_array = []
-  array.each
+  array.each do |row_win|
+  end
   
 end
