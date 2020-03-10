@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 def won?(array)
   final_array = []
   WIN_COMBINATIONS.each do |row_win|
-    final_array << if row_win == array
+    final_array << if row_win == array end
   end
 
 end
