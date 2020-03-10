@@ -23,5 +23,5 @@ def won?(array)
   end
 
 end
-
-p won?
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+p won?(board)
