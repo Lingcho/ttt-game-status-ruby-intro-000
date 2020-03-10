@@ -38,3 +38,4 @@ WIN_COMBINATIONS.each do |array|
   puts "truc #{combi[0]}"
   puts "truc2 #{combi[1]}"
 end
+end
