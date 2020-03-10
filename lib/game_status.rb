@@ -17,5 +17,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(array)
-  
+
 end
