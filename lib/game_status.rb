@@ -24,4 +24,4 @@ def won?(array)
 
 end
 
-won?
+p won?
