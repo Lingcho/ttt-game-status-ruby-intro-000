@@ -20,6 +20,7 @@ def won?(array)
   final_array = []
   WIN_COMBINATIONS.each do |array|
     array.each do |element|
+      final_array << element
     end
   end
 
