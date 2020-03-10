@@ -18,9 +18,9 @@ WIN_COMBINATIONS = [
 
 def won?(array)
   final_array = []
-  WIN_COMBINATIONS.each do |row_win|
-    if row_win == array then final_array << row_win end
-  end
+  
+
+
 
   draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if final_array == [] || final_array == draw
@@ -31,3 +31,10 @@ def won?(array)
 end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board) #=> [0,1,2]
+
+
+WIN_COMBINATIONS.each do |array|
+  array.each do |combi|
+  puts "truc #{combi[0]}"  
+  puts "truc2 #{combi[1]}"
+end
