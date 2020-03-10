@@ -20,5 +20,5 @@ def won?(array)
   final_array = []
   array.each do |row_win|
   end
-  
+
 end
