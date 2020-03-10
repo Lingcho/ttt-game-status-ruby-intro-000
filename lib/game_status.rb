@@ -36,6 +36,6 @@ p won?(board) #=> [0,1,2]
 WIN_COMBINATIONS.each do |array|
   array.each do |combi|
   puts "truc #{combi}"
-  puts "truc2 #{combi[1]}"
+
 end
 end
