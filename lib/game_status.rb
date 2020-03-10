@@ -39,6 +39,7 @@ WIN_COMBINATIONS.each do |array|
   else
   array.each do |combi|
   puts combie
+end
 
 end
 end
