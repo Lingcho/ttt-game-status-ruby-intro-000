@@ -27,5 +27,5 @@ def won?(array)
     final_array
   end
 end
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board)
