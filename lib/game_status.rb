@@ -21,7 +21,7 @@ def won?(array)
   WIN_COMBINATIONS.each do |row_win|
     if row_win == array then final_array << row_win end 
   end
-
+  final_array
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 p won?(board)
