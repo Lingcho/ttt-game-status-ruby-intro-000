@@ -22,6 +22,7 @@ def won?(array)
     array.each do |element|
       final_array << element
     end
+    final_array
   end
 
 
