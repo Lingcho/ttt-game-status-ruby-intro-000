@@ -34,6 +34,6 @@ p won?(board) #=> [0,1,2]
 
 
 WIN_COMBINATIONS.each do |array|
-  array.class
+  p array.class
 
 end
