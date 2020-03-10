@@ -34,12 +34,7 @@ p won?(board) #=> [0,1,2]
 
 
 WIN_COMBINATIONS.each do |array|
-  if array.class != Array
-    puts "array"
-  else
-  array.each do |combi|
-  puts combi
-end
+  array.class
 
 end
 end
