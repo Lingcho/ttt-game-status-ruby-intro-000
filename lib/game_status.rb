@@ -18,7 +18,9 @@ WIN_COMBINATIONS = [
 
 def won?(array)
   final_array = []
-
+  WIN_COMBINATIONS.each do |array|
+    array.each do |element|
+  end
 
 
 
@@ -31,14 +33,3 @@ def won?(array)
 end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board) #=> [0,1,2]
-
-
-WIN_COMBINATIONS.each do |array|
-
-  puts ">>>>>>>>>>>>>>>>>"
-  p array
-  puts ">>>>>>>>>>>>>>>>>"
-  array.each do |element|
-    print element
-  end
-end
