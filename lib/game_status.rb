@@ -39,6 +39,6 @@ WIN_COMBINATIONS.each do |array|
   p array
   puts ">>>>>>>>>>>>>>>>>"
   array.each do |element|
-    puts element
+    print element
   end
 end
