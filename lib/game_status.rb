@@ -23,3 +23,5 @@ def won?(array)
   end
 
 end
+
+won?
