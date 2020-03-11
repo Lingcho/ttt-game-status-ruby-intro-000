@@ -34,8 +34,8 @@ def full?(board)
 end
 
 def draw?(board)
-
+  
 end
 
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
-p full?(board)
+p draw?(board)
