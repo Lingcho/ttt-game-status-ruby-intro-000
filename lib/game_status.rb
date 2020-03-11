@@ -38,10 +38,11 @@ end
 
 def draw?(board)
   if full?(board)
+    binding.pry
     true
   elsif   won?(board) == true
     false
-    binding.pry
+
   else
     false
   end
