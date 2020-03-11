@@ -41,6 +41,7 @@ def draw?(board)
     true
   elsif   won?(board) == true
     false
+    binding.pry
   else
     false
   end
