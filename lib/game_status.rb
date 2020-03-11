@@ -41,5 +41,9 @@ def over?
 
 end
 
+def winner
+
+end
+
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
 p draw?(board)
