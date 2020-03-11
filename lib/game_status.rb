@@ -58,7 +58,7 @@ end
 def winner(board)
   if won?(board)
     board.detect do |winner|
-      winner == "X"
+      winner == "X" || winner == "O"
     end
     end
 end
