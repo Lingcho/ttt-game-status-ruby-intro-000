@@ -56,9 +56,12 @@ def over?(board)
 end
 
 def winner(board)
-
+  if win?(board)
+    board.select do |winner|
+      winner == "X" 
+    end
 end
 
-board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-board_1 = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"] #=> X
+board_1 = ["X", "O", " ", " ", " ", " ", " ", "O", "X"] #=> nil
 p winner(board)
