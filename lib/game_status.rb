@@ -27,7 +27,6 @@ end
 
 end
 final_array
-
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
