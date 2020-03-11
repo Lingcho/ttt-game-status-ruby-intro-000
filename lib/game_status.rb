@@ -39,7 +39,7 @@ end
 #p won?(board) #=> [0,1,2]
 
 
-board = ["X", "X", "O", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 
 # Definition of indexes that compose a top row win.
 top_row_win = [0,1,2]
