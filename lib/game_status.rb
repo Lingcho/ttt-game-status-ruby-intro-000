@@ -60,5 +60,5 @@ def winner(board)
 end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-
+board_1 = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]
 p winner(board)
