@@ -21,6 +21,8 @@ WIN_COMBINATIONS.each do |win_combination|
 
   if position_1 == ("X" || "O") && position_2 == ("X" || "O") && position_3 == ("X" || "O"))
     win_combination
+  else
+    false
   end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
