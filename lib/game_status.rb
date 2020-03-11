@@ -63,6 +63,6 @@ def winner(board)
     end
 end
 
-board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"] #=> X
+board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"] #=> O
 board_1 = ["X", "O", " ", " ", " ", " ", " ", "O", "X"] #=> nil
 p winner(board)
