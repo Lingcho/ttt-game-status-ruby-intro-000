@@ -22,7 +22,7 @@ def won?(board)
   final_array = []
 WIN_COMBINATIONS.each do |row|
   row.each do |index|
-
+    p row
     if board[index] == "X" && board[index] == "X" && board[index] == "X"
       final_array << index
     end
