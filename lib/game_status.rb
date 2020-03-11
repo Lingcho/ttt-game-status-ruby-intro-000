@@ -18,10 +18,10 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   final_array = []
-  
+
   WIN_COMBINATIONS.each do |array|
     array.each do |element|
-    if element == 
+    if element ==
     end
     final_array
   end
