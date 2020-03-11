@@ -24,7 +24,7 @@ WIN_COMBINATIONS.each do [array]
       final_array << index
   end
 end
-  
+
 end
 final_array
 
