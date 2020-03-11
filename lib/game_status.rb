@@ -28,7 +28,7 @@ WIN_COMBINATIONS.each do |win_combination|
 end
 
 def full?(board)
-  board.all do |spot|
+  board.all? do |spot|
     spot == "X" || spot == "O"
   end
 end
