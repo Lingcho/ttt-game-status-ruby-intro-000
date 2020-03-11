@@ -57,14 +57,7 @@ end
 
 def winner(board)
   if won?(board)
-    board.detect do |winner|
-      if winner == "X"
-        winner
-      elsif winner == "O"
-        winner
-      end
-    end
-    end
+    binding.pry
 end
 
 board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"] #=> O
