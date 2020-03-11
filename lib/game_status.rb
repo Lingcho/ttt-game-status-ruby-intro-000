@@ -1,3 +1,5 @@
+require "pry"
+
 # Helper Method
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
@@ -20,6 +22,7 @@ def won?(board)
   final_array = []
 WIN_COMBINATIONS.each do [row]
   row.each do [index]
+    binding.pry
     if board[index] == "X" || board["O"]
       final_array << index
   end
