@@ -25,7 +25,7 @@ def won?(board)
   if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
     "X won in the top row"
   end
-
+end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if final_array == [] || final_array == draw
