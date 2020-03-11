@@ -25,6 +25,7 @@ WIN_COMBINATIONS.each do |row|
     p row
     if board[index] == "X" && board[index] == "X" && board[index] == "X"
       final_array << index
+      p index
     end
   end
 
