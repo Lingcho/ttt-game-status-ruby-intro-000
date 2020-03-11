@@ -56,9 +56,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    binding.pry
-  end
+  row_win = won?(board)
+  board[row_win[0]]
 end
 
 board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"] #=> O
