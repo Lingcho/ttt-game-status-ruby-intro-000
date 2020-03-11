@@ -23,6 +23,7 @@ WIN_COMBINATIONS.each do [array]
     if board[index] == "X" || board["O"]
       final_array << index
   end
+  final_array
 end
 
 end
