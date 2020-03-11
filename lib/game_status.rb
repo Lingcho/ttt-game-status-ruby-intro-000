@@ -26,12 +26,14 @@ def won?(board)
     "X won in the top row"
   end
 
-  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+=begin
+ draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if final_array == [] || final_array == draw
     false
   else
     final_array
   end
 end
+=end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board) #=> [0,1,2]
