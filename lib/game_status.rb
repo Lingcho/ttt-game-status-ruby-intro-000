@@ -25,7 +25,7 @@ WIN_COMBINATIONS.each do |win_combination|
     spot == "X" || "O"
   end
   p win_row
-
+end
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
