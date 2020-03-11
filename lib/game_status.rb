@@ -55,4 +55,4 @@ def winner(board)
 end
 board1 = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
 board = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
-p draw?(board1)
+p draw?(board)
