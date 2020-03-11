@@ -19,14 +19,9 @@ WIN_COMBINATIONS.each do |win_combination|
   position_2 = board[win_combination[1]]
   position_3 = board[win_combination[2]]
 
-  win_row = [position_1, position_2, position_3]
-
-  win_row.map do |spot|
-    spot == "X" || spot == "O"
+  if position_1 == ("X" || "O") && position_2 == ("X" || "O") && position_3 == ("X" || "O"))
+    win_combination
   end
-  p win_row
-end
-end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
   if final_array == [] || final_array == draw
