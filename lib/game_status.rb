@@ -58,7 +58,8 @@ end
 def winner(board)
   if win?(board)
     board.select do |winner|
-      winner == "X" 
+      winner == "X"
+    end
     end
 end
 
