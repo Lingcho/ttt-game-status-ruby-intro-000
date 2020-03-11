@@ -16,11 +16,11 @@ WIN_COMBINATIONS = [
   [1,4,7]
 ]
 
-def won?(array)
+def won?(board)
   final_array = []
   WIN_COMBINATIONS.each do |array|
     array.each do |element|
-      final_array << element
+    if element == 
     end
     final_array
   end
