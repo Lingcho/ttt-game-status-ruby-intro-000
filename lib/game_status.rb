@@ -26,6 +26,7 @@ def won?(board)
     final_array
   end
   end
+end
 
 
 
