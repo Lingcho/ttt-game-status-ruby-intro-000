@@ -26,14 +26,6 @@ WIN_COMBINATIONS.each do |win_combination|
   end
   end
 end
-=begin
- draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-  if final_array == [] || final_array == draw
-    false
-  else
-    final_array
-  end
-end
-=end
+
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
 p won?(board) #=> [0,1,2]
