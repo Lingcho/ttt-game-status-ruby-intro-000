@@ -22,9 +22,8 @@ def won?(board)
   WIN_COMBINATIONS.each do |array|
     array.each do |element|
     end
-    
+
   end
-end
 
 
 
