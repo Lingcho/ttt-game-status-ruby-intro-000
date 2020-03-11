@@ -29,7 +29,7 @@ WIN_COMBINATIONS.each do |row|
   end
 
   end
-  final_array
+p  final_array
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
