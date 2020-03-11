@@ -13,16 +13,15 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   final_array = []
-WIN_COMBINATIONS.each do |row|
-  row.each do |index|
-    p row
-    if board[index] == "X" && board[index] == "X" && board[index] == "X"
-      final_array << index
-      p index
-    end
-  end
+WIN_COMBINATIONS.each do |win_row|
+  win_index_1 = win_row[0]
+  win_index_2 = win_row[1]
+  win_index_3 = win_row[2]
 
-  end
+  position_1 = board[win_row[0]]
+  position_2 = board[win_row[1]]
+  position_3 = board[win_row[2]]
+
   final_array
 end
 =begin
