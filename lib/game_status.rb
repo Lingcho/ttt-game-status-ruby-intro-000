@@ -30,6 +30,7 @@ end
 def full?(board)
   board.all do |spot|
     spot
+  end
 end
 
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
