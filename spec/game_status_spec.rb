@@ -164,3 +164,8 @@ describe "./lib/game_status.rb" do
     end
   end
 end
+
+
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+
+p winner(board)
