@@ -35,11 +35,11 @@ end
   end
 end
 =end
-board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+#board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board) #=> [0,1,2]
 
 
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "O", " ", " ", " ", " ", " ", " "]
 
 # Definition of indexes that compose a top row win.
 top_row_win = [0,1,2,5]
