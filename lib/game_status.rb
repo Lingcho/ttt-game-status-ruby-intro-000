@@ -24,6 +24,7 @@ WIN_COMBINATIONS.each do |win_combination|
   else
     false
   end
+  end
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
