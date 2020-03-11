@@ -34,4 +34,4 @@ def full?(board)
 end
 
 board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
-p won?(board) #=> [0,1,2]
+p full?(board)
