@@ -37,13 +37,8 @@ def full?(board)
 end
 
 def draw?(board)
-  if full?(board)
-    binding.pry
-    true
-  elsif   won?(board)
-    false
 
-  else
+  if won?(board)
     false
   end
 end
