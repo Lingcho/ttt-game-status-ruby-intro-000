@@ -59,7 +59,9 @@ def winner(board)
   if won?(board)
     board.detect do |winner|
       if winner == "X"
+        winner
       elsif winner == "O"
+        winner
       end
     end
     end
