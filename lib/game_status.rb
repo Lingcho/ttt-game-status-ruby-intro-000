@@ -12,14 +12,20 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  final_array = []
-WIN_COMBINATIONS.each do |win_row|
+
+WIN_COMBINATIONS.each do |win_combination|
 
   position_1 = board[win_row[0]]
   position_2 = board[win_row[1]]
   position_3 = board[win_row[2]]
+  
+  win_row = [position_1, position_2, position_3]
 
-  final_array
+  win_row.map do |spot|
+    spot == "X" || "O"
+  end
+  p win_row
+
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
