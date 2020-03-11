@@ -22,7 +22,7 @@ WIN_COMBINATIONS.each do |win_combination|
   win_row = [position_1, position_2, position_3]
 
   win_row.map do |spot|
-    spot == "X" || "O"
+    spot == "X" || spot == "O"
   end
   p win_row
 end
