@@ -26,7 +26,7 @@ WIN_COMBINATIONS.each do |win_combination|
   end
   end
   if full?(board) == false
-    false
+    return false
   end
 end
 
