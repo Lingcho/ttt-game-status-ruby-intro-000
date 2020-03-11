@@ -22,14 +22,14 @@ def won?(board)
   final_array = []
 WIN_COMBINATIONS.each do |row|
   row.each do |index|
-    
+
     if board[index] == "X" || board[index] = "O"
       final_array << index
+    end
   end
-end
 
-end
-final_array
+  end
+  final_array
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
