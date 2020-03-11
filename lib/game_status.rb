@@ -41,4 +41,3 @@ end
 end
 =end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
-p won?(board) #=> [0,1,2]
