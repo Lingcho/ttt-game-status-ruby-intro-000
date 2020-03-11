@@ -37,3 +37,14 @@ end
 =end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 p won?(board) #=> [0,1,2]
+
+
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+
+# Definition of indexes that compose a top row win.
+top_row_win = [0,1,2]
+
+# Check if each index in the top_row_win array contains an "X"
+if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
+  "X won in the top row"
+end
