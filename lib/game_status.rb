@@ -18,7 +18,7 @@ WIN_COMBINATIONS.each do |win_combination|
   position_1 = board[win_row[0]]
   position_2 = board[win_row[1]]
   position_3 = board[win_row[2]]
-  
+
   win_row = [position_1, position_2, position_3]
 
   win_row.map do |spot|
