@@ -23,8 +23,7 @@ def won?(board)
     array.each do |element|
     if element ==
     end
-    final_array
-  end
+    
   end
 end
 
