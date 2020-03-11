@@ -40,7 +40,7 @@ def draw?(board)
   if full?(board)
     binding.pry
     true
-  elsif   won?(board) == true
+  elsif   won?(board) = true
     false
 
   else
