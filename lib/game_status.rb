@@ -29,7 +29,7 @@ WIN_COMBINATIONS.each do |row|
   end
 
   end
-p  final_array
+  final_array
 end
 =begin
  draw = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
@@ -41,3 +41,4 @@ end
 end
 =end
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+p won?(board) #=> [0,1,2]
