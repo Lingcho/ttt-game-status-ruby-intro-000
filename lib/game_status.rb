@@ -45,5 +45,5 @@ def winner(board)
 
 end
 
-board = ["X", " ", "O", "X", " ", "O", " ", " ", "O"]
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 p draw?(board)
