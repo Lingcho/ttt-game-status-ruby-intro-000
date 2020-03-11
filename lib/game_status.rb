@@ -56,8 +56,10 @@ def over?(board)
 end
 
 def winner(board)
+  if won?(board)
   row_win = won?(board)
   board[row_win[0]]
+end
 end
 
 board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"] #=> O
