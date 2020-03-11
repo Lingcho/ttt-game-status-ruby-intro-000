@@ -58,6 +58,7 @@ end
 def winner(board)
   if won?(board)
     binding.pry
+  end
 end
 
 board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"] #=> O
